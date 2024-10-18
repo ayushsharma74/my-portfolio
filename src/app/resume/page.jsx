@@ -12,9 +12,9 @@ const sans = DM_Sans({
 });
 export default function Resume() {
   return (
-    <div className="bg-slate-200 h-[91.2vh] py-16 px-20">
+    <div className="bg-slate-200 h-[100vh] py-16 px-20">
       <div className="flex flex-col gap-3 items-center">
-        <h1 className={`${anton.className} text-7xl mb-5`}>Resume</h1>
+        <h1 className={`${anton.className} text-5xl md:text-7xl lg:text-7xl mb-5`}>Resume</h1>
         <p className={`${sans.className} text-lg `}>
           Interested in working with me? Feel free to reach out
         </p>
