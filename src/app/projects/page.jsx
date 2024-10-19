@@ -13,7 +13,7 @@ const sans = DM_Sans({
 });
 export default function Projects() {
   return (
-    <div className="bg-slate-200 h-[115vh] py-6 px-10 sm:px-32 md:px-32">
+    <div className="bg-slate-200 h-[180vh] md:h-[150vh] lg:h-[130vh] py-6 px-10 sm:px-32 md:px-32">
       <div className="flex flex-col gap-3 items-center">
         <h1 className={`${anton.className} text-7xl `}>Projects</h1>
         <p className={`${sans.className} text-lg `}>Check out my work!</p>
