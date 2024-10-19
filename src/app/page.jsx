@@ -18,7 +18,7 @@ export default function Home() {
     <div className="bg-slate-200 h-[100vh] flex items-center justify-center">
       <div className="flex flex-col items-center max-w-92 px-2">
         <img
-          src="/profile/profilepic.jpg"
+          src="/profile/profilepic.png"
           alt=""
           width={"200px"}
           height={"200px"}
