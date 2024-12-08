@@ -40,7 +40,6 @@ export default function RootLayout({ children }) {
         <Navbar/>
        
         {children}
-        <h1 className="bg-slate-200 text-center"> <font className={sans.className}>Designed and Developed By  </font> <font className={anton.className}>Ayush Sharma</font></h1>
       </body>
     </html>
   );
