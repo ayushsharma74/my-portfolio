@@ -1,10 +1,7 @@
-"use client";
 import Link from "next/link";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { Anton ,DM_Sans} from 'next/font/google'
-import useDarkMode from '@/hooks/useDarkMode';
-import { useEffect } from "react";
 
 const anton = Anton({
   weight: "400",
@@ -16,13 +13,6 @@ const sans = DM_Sans({
 })
 
 export default function Home() {
-  const [isDark, setIsDark] = useDarkMode();
-
-  useEffect(() => {
-    
-    console.log(isDark);
-  }, [isDark]);
-  
   return (
     <div className="bg-slate-200 dark:bg-black h-[100vh] flex items-center justify-center">
       <div className="flex flex-col items-center max-w-92 px-2">
