@@ -25,8 +25,8 @@ export default function Home() {
         />
         <h1 className={`${anton.className} md:text-7xl lg:text-7xl mt-8 text-4xl dark:text-white`}>Ayush Sharma</h1>
         <h2 className={`${sans.className} text-sm md:text-xl lg:md:text-xl mb-4 dark:text-white`}>Full Stack Web Developer</h2>
-        <h2 className="mt-10 text-lg dark:text-white">Hi, I am <font className={`${sans.className} dark:text-white`}>Ayush Sharma</font> , I&apos;m a <font className={sans.className}>Full Stack Web Developer</font></h2>
-        <h2 className="font-sans dark:text-white">
+        <h2 className="mt-10 text-lg dark:text-white text-center">Hi, I am <font className={`${sans.className} dark:text-white`}>Ayush Sharma</font> , I&apos;m a <font className={sans.className}>Full Stack Web Developer</font></h2>
+        <h2 className="font-sans dark:text-white text-center">
           I have experience in working with<font className={`${sans.className} dark:text-white`}> JavaScript/TypeScript, React.js,
           Next.js, Node.js, TailwindCSS</font> and numerous other tools.{" "}
         </h2>
