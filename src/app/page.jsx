@@ -58,7 +58,7 @@ export default function Home() {
         {/* <h2 className={`${sans.className} text-sm md:text-xl lg:md:text-xl mb-4  text-white`}> */}
         <WordRotate
         className="text-sm md:text-xl lg:text-xl font-bold text-white dark:text-white"
-        words={["Full Stack Web Developer", "Shtiposter on X", "Software Engineer", "UI/UX Designer", "Blog Writer"]}
+        words={["Full Stack Web Developer", "Software Engineer", "UI/UX Designer", "Blog Writer"]}
         />
           
         {/* </h2> */}
