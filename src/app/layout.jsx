@@ -4,6 +4,7 @@ import Link from "next/link";
 import NextTopLoader from "nextjs-toploader";
 import Navbar from "@/components/Navbar";
 import { Anton, DM_Sans } from "next/font/google";
+import {Analytics} from "@vercel/analytics/react"
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -38,7 +39,7 @@ export default function RootLayout({ children }) {
       >
         <NextTopLoader showSpinner={false} color="gray"/>
         <Navbar/>
-       
+       <Analytics />
         {children}
       </body>
     </html>
