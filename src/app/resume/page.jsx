@@ -24,13 +24,6 @@ export default function Resume() {
             View/Download Resume
             </Link>
         </div>
-        <Particles
-          className="absolute inset-0  text-white "
-          quantity={100}
-          ease={80}
-          color={"#ffffff"}
-          refresh
-        />
         <h1 className={`${anton.className} text-2xl mt-20  text-white`}>Get in touch</h1>
         <h1 className="mt-1  text-white">Email : <Link href={"mailto:ayushsharma.code@outlook.com"} className="hover:text-slate-500 transition-all duration-300 underline hover:no-underline" >ayushsharma.code@outlook.com</Link></h1>
         <div className="flex gap-4">

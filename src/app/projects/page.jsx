@@ -13,10 +13,68 @@ const sans = DM_Sans({
 });
 export default function Projects() {
   return (
-    <div className="bg-black bg-black h-[180vh] md:h-[150vh] lg:h-[130vh] py-6 px-10 sm:px-32 md:px-32">
+    <div className="bg-black h-fit  py-6 px-10 sm:px-32 md:px-32">
       <div className="flex flex-col gap-3 items-center">
         <h1 className={`${anton.className} text-7xl  text-white `}>Projects</h1>
         <p className={`${sans.className} text-lg  text-white`}>Check out my work!</p>
+      </div>
+      <div className=" px-6 py-5 border border-solid border-slate-500 mt-7 rounded-xl">
+        <h1 className={`${anton.className} text-3xl mb-3  text-white`}>Codehub</h1>
+        <div>
+          <p className="bg-blackborder border-solid border-slate-500  bg-black font-medium inline-block mr-2 py-1 px-2 rounded-full text-xs text-white mb-2 ">Next.js</p>
+          <p className="bg-blackborder border-solid border-slate-500  bg-black font-medium inline-block mr-2 py-1 px-2 rounded-full text-xs text-white mb-2 ">Node.js</p>
+          <p className="bg-blackborder border-solid border-slate-500  bg-black font-medium inline-block mr-2 py-1 px-2 rounded-full text-xs text-white mb-2 ">TailwindCSS</p>
+          <p className="bg-blackborder border-solid border-slate-500  bg-black font-medium inline-block mr-2 py-1 px-2 rounded-full text-xs text-white mb-2 ">Typescript</p>
+          <p className="bg-blackborder border-solid border-slate-500  bg-black font-medium inline-block mr-2 py-1 px-2 rounded-full text-xs text-white mb-2 ">Shadcn</p>
+        </div>
+        <p className={`${sans.className}  text-white`}>
+          Built with Next.js, Codehub is a platform with 1000+ leetcode problems with video solutions and company wise, topic wise and difficulty wise categorization. Helping hundreds of students to prepare for their interviews.
+        </p>
+        <div className="flex justify-end gap-4 mt-3">
+          <Link href={"https://thecodehub.vercel.app/"} target="_blank">
+            <FaExternalLinkAlt
+              size={23}
+              className={`hover:scale-110 transition-all duration-200  text-white`}
+            />
+          </Link>
+          <Link
+            href={"https://github.com/ayushsharma74/codehub"}
+            target="_blank"
+          >
+            <FaGithub
+              size={23}
+              className="hover:scale-110 transition-all duration-200  text-white"
+            />
+          </Link>
+          
+        </div>
+      </div>
+      <div className=" px-6 py-5 border border-solid border-slate-500 mt-7 rounded-xl">
+        <h1 className={`${anton.className} text-3xl mb-3  text-white`}>URL Shortener</h1>
+        <div>
+          <p className="bg-blackborder border-solid border-slate-500  bg-black font-medium inline-block mr-2 py-1 px-2 rounded-full text-xs text-white mb-2 ">Express.js</p>
+          <p className="bg-blackborder border-solid border-slate-500  bg-black font-medium inline-block mr-2 py-1 px-2 rounded-full text-xs text-white mb-2 ">Node.js</p>
+          <p className="bg-blackborder border-solid border-slate-500  bg-black font-medium inline-block mr-2 py-1 px-2 rounded-full text-xs text-white mb-2 ">TailwindCSS</p>
+          <p className="bg-blackborder border-solid border-slate-500  bg-black font-medium inline-block mr-2 py-1 px-2 rounded-full text-xs text-white mb-2 ">Javascript</p>
+          <p className="bg-blackborder border-solid border-slate-500  bg-black font-medium inline-block mr-2 py-1 px-2 rounded-full text-xs text-white mb-2 ">MongoDB</p>
+        </div>
+        <p className={`${sans.className}  text-white`}>
+        A RESTful API for URL shortening and management, implemented using Node.js, Express.js, and MongoDB. It features endpoints for creating, retrieving, updating, and deleting URLs, with unique short code generation via nanoid and real-time access count tracking.
+
+
+        </p>
+        <div className="flex justify-end gap-4 mt-3">
+          <Link
+            href={"https://github.com/ayushsharma74/Url-Shortener"}
+            target="_blank"
+          >
+            <FaGithub
+              size={23}
+              className="hover:scale-110 transition-all duration-200  text-white"
+            />
+          </Link>
+          
+        </div>
       </div>
       <div className=" px-6 py-5 border border-solid border-slate-500 mt-7 rounded-xl">
         <h1 className={`${anton.className} text-3xl mb-3  text-white`}>RetailRadar</h1>
@@ -43,6 +101,29 @@ export default function Projects() {
       </div>
       <div className="px-6 py-5 border border-solid border-slate-500 mt-7 rounded-xl">
         <h1 className={`${anton.className} text-3xl mb-3  text-white`}>
+          Caching Proxy Server
+        </h1>
+        <div>
+          <p className="bg-blackborder border-solid border-slate-500 font-medium inline-block mr-2 py-1 px-2 rounded-full text-xs text-white mb-2">Express.js</p>
+          <p className="bg-blackborder border-solid border-slate-500 font-medium inline-block mr-2 py-1 px-2 rounded-full text-xs text-white mb-2">Redis</p>
+        </div>
+        <p className={`${sans.className}  text-white`}>
+The Caching Proxy Server is a lightweight middleware tool that forwards client requests to an origin server, caches responses, and serves subsequent requests from the cache. It reduces latency, minimizes server load, and is configurable via simple command-line arguments, offering an efficient solution for caching in web applications.
+        </p>
+        <div className="flex justify-end gap-4 mt-3">
+          <Link
+            href={"https://github.com/ayushsharma74/Caching-Proxy-Server"}
+            target="_blank"
+          >
+            <FaGithub
+              size={23}
+              className="hover:scale-110 transition-all duration-200  text-white"
+            />
+          </Link>
+        </div>
+      </div>
+      <div className="px-6 py-5 border border-solid border-slate-500 mt-7 rounded-xl">
+        <h1 className={`${anton.className} text-3xl mb-3  text-white`}>
           Vizack Enterprises
         </h1>
         <div>
@@ -62,32 +143,6 @@ export default function Projects() {
           </Link>
           <Link
             href={"https://github.com/ayushsharma74/vizack.com"}
-            target="_blank"
-          >
-            <FaGithub
-              size={23}
-              className="hover:scale-110 transition-all duration-200  text-white"
-            />
-          </Link>
-        </div>
-      </div>
-      <div className="px-6 py-5 border border-solid border-slate-500 mt-7 rounded-xl">
-        <h1 className={`${anton.className} text-3xl mb-3  text-white`}>Stream Pulse</h1>
-        <p className="bg-blackborder border-solid border-slate-500 font-medium inline-block mr-2 py-1 px-2 rounded-full text-xs text-white mb-2  text-white  bg-black">React.js</p>
-          <p className="bg-blackborder border-solid border-slate-500 font-medium inline-block mr-2 py-1 px-2 rounded-full text-xs text-white mb-2  text-white  bg-black">Node.js</p>
-          <p className="bg-blackborder border-solid border-slate-500 font-medium inline-block mr-2 py-1 px-2 rounded-full text-xs text-white mb-2  text-white  bg-black">TailwindCSS</p>
-          <p className="bg-blackborder border-solid border-slate-500 font-medium inline-block mr-2 py-1 px-2 rounded-full text-xs text-white mb-2  text-white  bg-black">Typescript</p>
-          <p className="bg-blackborder border-solid border-slate-500 font-medium inline-block mr-2 py-1 px-2 rounded-full text-xs text-white mb-2  text-white  bg-black">MongoDB</p>
-        <p className={`${sans.className}  text-white`}>
-          Stream Pulse is a modern YouTube clone application built using the
-          powerful React ecosystem. This project aims to provide a feature-rich
-          and user-friendly platform for streaming and discovering videos,
-          leveraging the latest technologies and best practices in web
-          development.
-        </p>
-        <div className="flex justify-end gap-4 mt-3">
-          <Link
-            href={"https://github.com/ayushsharma74/stream-pulse"}
             target="_blank"
           >
             <FaGithub

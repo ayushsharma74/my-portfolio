@@ -12,6 +12,7 @@ import HyperText from "@/components/ui/hyper-text";
 import GradualSpacing from "@/components/ui/gradual-spacing";
 import BoxReveal from "@/components/ui/box-reveal";
 import { BorderBeam } from "@/components/ui/border-beam";
+import Image from "next/image";
 const anton = Anton({
   weight: "400",
   subsets: ["latin"]
@@ -26,25 +27,15 @@ export default function Home() {
 
   return (
     <div className="bg-black h-[100vh] flex items-center justify-center">
-        <Particles
-          className="absolute inset-0  text-white "
-          quantity={100}
-          ease={80}
-          color={"#ffffff"}
-          refresh
-        />
       <div className="flex flex-col items-center max-w-92 px-2">
         <div className="relative rounded-full p-1">
-        <img
+        <Image
           src="/profile/profilepic.png"
           alt=""
-          width={"200px"}
-          height={"200px"}
+          width={"200"}
+          height={"200"}
           className="rounded-full"
         />
-        <BorderBeam size={250} duration={12} delay={9} >
-          
-        </BorderBeam>
         </div>
         
         
