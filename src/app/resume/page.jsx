@@ -1,4 +1,3 @@
-import Particles from "@/components/ui/particles";
 import { Anton, DM_Sans } from "next/font/google";
 import Link from "next/link";
 import { FaGithub, FaLinkedin, FaXTwitter } from "react-icons/fa6";
@@ -28,13 +27,13 @@ export default function Resume() {
         <h1 className="mt-1  text-white">Email : <Link href={"mailto:ayushsharma.code@outlook.com"} className="hover:text-slate-500 transition-all duration-300 underline hover:no-underline" >ayushsharma.code@outlook.com</Link></h1>
         <div className="flex gap-4">
 
-        <Link href={"https://x.com/ayusssshhhhhhh"} target="_blank">
+        <Link href={"https://x.com/ayushon_twt"} target="_blank" className="hover:scale-110 transition-all duration-300">
             <FaXTwitter size={30} className=" text-white"/>
           </Link>
-          <Link href={"https://github.com/ayushsharma74"} target="_blank">
+          <Link href={"https://github.com/ayushsharma74"} target="_blank" className="hover:scale-110 transition-all duration-300">
             <FaGithub size={30} className=" text-white" />
           </Link>
-          <Link href={"https://www.linkedin.com/in/ayushtriedcode/"} target="_blank">
+          <Link href={"https://www.linkedin.com/in/ayushtriedcode/"} target="_blank" className="hover:scale-110 transition-all duration-300">
             <FaLinkedin size={30} className=" text-white"/>
           </Link>
         </div>

@@ -59,7 +59,7 @@ export default function Home() {
           Next.js, Node.js, TailwindCSS</font> and numerous other tools.{" "}
         </h2>
         <div className="flex space-x-7 mt-5">
-          <Link href={"https://x.com/ayusssshhhhhhh"} target="_blank">
+          <Link href={"https://x.com/ayushon_twt"} target="_blank">
               <FaXTwitter size={32} className="hover:scale-110 transition-all duration-300  text-white"/>
           </Link>
           <Link href={"https://github.com/ayushsharma74"} target="_blank">
